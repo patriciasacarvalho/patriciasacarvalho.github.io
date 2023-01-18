@@ -5,11 +5,52 @@
     <title>Homework 01-17</title>
   </head>
 
+  <style>
+    .test_class {
+        background-color: blueviolet;
+        color: white;
+        border: 3px solid black;
+        margin: 5px;
+        padding: 10px;
+    }
+  </style>
+
+<style> 
+    #mytest3 {
+        background-color: rgb(43, 107, 226);
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }
+  </style>
+
   <body> 
-    <svg> width="100" height="100">
-        <rect x="0" y="50" width="40" height="40" fill="red"/>
-        <rect x="10" y="10" width="30" height="30"/>
+    <svg width="300" height="300">
+        <rect x="200" y="100" width="40" height="40" fill="cyan"/>
+        <rect x="90" y="90" width="30" height="30"/>
+        <circle cx="25" cy="75" r="20"/>
+        <ellipse cx="75" cy="75" rx="20" ry="5"/>
+        <line x1="10" x2="50" y1="110" y2="150" stroke="black" stroke-width="5"/>
+        <line x1="10" y1="110" stroke="black" stroke-width="2"/>
+        <polyline points="60, 110 65, 120 70, 115 75, 130 80, 125 85, 140 90, 135 95, 150 100, 145"/>
+        <polygon points="50, 160 55, 180 70, 180 60, 190 65, 205 50, 195 35, 205 40, 190 30, 180 45, 180"/>
+        <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
     </svg> 
+  </body>
+
+  <body>
+    <div class="test_class">
+        <h2>Test 1</h2>
+        <p>This is *Class* Test 1</p>
+    </div>
+
+    <div class="test_class">
+        <h2>Test 2</h2>
+        <p>This is *Class* Test 2</p>
+    </div>
+
+    <h1 id="mytest3">This is the test for id</h1>
+    <h2 id="mytest3">This is the test for id#2</h1>
   </body>
 
 </html>
